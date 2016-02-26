@@ -240,7 +240,7 @@
     if (error) *error = localError;
     
     // return success or error code
-    return localError == nil ? D_TBXML_SUCCESS : (UInt)[localError code];
+    return localError == nil ? D_TBXML_SUCCESS : (uint)[localError code];
 }
 
 @end
@@ -597,7 +597,7 @@
     
     if (error) *error = localError;
         
-    return localError == nil ? D_TBXML_SUCCESS : (UInt)[localError code];
+    return localError == nil ? D_TBXML_SUCCESS : (uint)[localError code];
 }
 
 - (void) decodeBytes {
